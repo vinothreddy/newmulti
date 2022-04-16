@@ -1,8 +1,8 @@
-node('Built-In Node') 
+node('built-in') 
 {
     stage('Continuous Download') 
 	{
-    git 'https://github.com/vinothreddy/multibranchnew.git'
+    git 'https://github.com/vinothreddy/newmulti.git'
 	}
     stage('Continuous Build') 
 	{
